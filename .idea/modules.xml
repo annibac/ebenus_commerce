@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/maven-ebenus-back-office/maven-ebenus-back-office.iml" filepath="$PROJECT_DIR$/maven-ebenus-back-office/maven-ebenus-back-office.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ebenus-dao-service/maven-ebenus-dao-service.iml" filepath="$PROJECT_DIR$/maven-ebenus-dao-service/maven-ebenus-dao-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ebenus-front-office-web/maven-ebenus-front-office-web.iml" filepath="$PROJECT_DIR$/maven-ebenus-front-office-web/maven-ebenus-front-office-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/site_commerce.iml" filepath="$PROJECT_DIR$/.idea/site_commerce.iml" />
+    </modules>
+  </component>
+</project>

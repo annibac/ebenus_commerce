@@ -21,6 +21,7 @@ public class Main {
         ProduitDao pdao = new ProduitDao();
         AdresseDao adao = new AdresseDao();
         CommandeDao cdao = new CommandeDao();
+        ArticleCommandeDao artCoDao = new ArticleCommandeDao();
 
 //        List<Utilisateur> users = userdao.findAllUtilisateurs();
 //        System.out.println("FIND ALL USERS ");
@@ -112,5 +113,16 @@ public class Main {
 //        System.out.println(cdao.deleteCommande(cdao.findCommandeById(624)));
 //        System.out.println(cdao.deleteCommande(cdao.findCommandeById(625)));
 
+
+//        List<ArticleCommande> commandes = artCoDao.findAll();
+//        for(ArticleCommande cmd: commandes){
+//            System.out.println(cmd);
+//        }
+
+//        System.out.println(artCoDao.findArticleCommandeByUser(userdao.findUtilisateurById(12)));
+//        System.out.println(artCoDao.findArticleCommandeById(1647));
+
+        ArticleCommande art = new ArticleCommande(1, 12,22,15, 600.0, "REF-IPHONE", 1, "V");
+        System.out.println(artCoDao.createArticleCommande(art));
     }
 }

@@ -9,15 +9,15 @@ public interface IArticleCommandeDao {
 
     public List<ArticleCommande> findAll();
 
-    public ArticleCommande findCommandeById(int idCommande);
+    public ArticleCommande findArticleCommandeById(int idCommande);
 
-    public List<ArticleCommande> findCommandeByUser(Utilisateur user);
+    public List<ArticleCommande> findArticleCommandeByUser(Utilisateur user);
 
-    public List<ArticleCommande> findProduitByReference(String reference);
+    public List<ArticleCommande> findArticleCommandeByReference(String reference);
 
-    public ArticleCommande createCommande(ArticleCommande articlecommande);
+    public ArticleCommande createArticleCommande(ArticleCommande articlecommande);
 
-    public ArticleCommande updateCommande(ArticleCommande articlecommande);
+    public ArticleCommande updateArticleCommande(ArticleCommande articlecommande);
 
-    public boolean deleteCommande(ArticleCommande articlecommande);
+    public boolean deleteArticleCommande(ArticleCommande articlecommande);
 }
