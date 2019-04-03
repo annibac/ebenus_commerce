@@ -1,5 +1,6 @@
 package com.cours.ebenus.maven.ebenus.front.office.web.servlets;
 
+import com.cours.ebenus.maven.ebenus.dao.entities.ArticleCommande;
 import com.cours.ebenus.maven.ebenus.dao.entities.Produit;
 import com.cours.ebenus.maven.ebenus.dao.entities.Utilisateur;
 import com.cours.ebenus.maven.ebenus.front.office.web.utils.Utils;
@@ -8,15 +9,15 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-//@WebServlet(name = "IndexServlet", urlPatterns = {"/", "/index"})
-public class IndexServlet extends HttpServlet {
-
+public class PanierServlet extends HttpServlet {
     private ServiceFacade servicefacade = null;
 
     private static final Log log = LogFactory.getLog(LoginServlet.class);
@@ -35,10 +36,23 @@ public class IndexServlet extends HttpServlet {
             response.sendRedirect(this.getServletContext().getContextPath() + "/login");
         } else {
             HttpSession session = request.getSession();
-            List<Produit> produits = ServiceFacade.getInstance().getProduitDao().findAll();
+            List<ArticleCommande> artCo = ServiceFacade.getInstance().getArticleCommandeDao().findArticleCommandeByUser(userLogged);
+            List<ArticleCommande> temp_art = new ArrayList<ArticleCommande>();
+            for(ArticleCommande ac: artCo){
+                if(ac.getStatut().equals("T"))
+                    temp_art.add(ac);
+            }
+            List<Produit> produits = new ArrayList<Produit>();
+            Double total = 0.0;
+            for(ArticleCommande ac: temp_art){
+                Produit prd = ServiceFacade.getInstance().getProduitDao().findProduitById(ac.getIdProduit());
+                produits.add(prd);
+                total += prd.getPrix();
+            }
             request.setAttribute("produits", produits);
+            request.setAttribute("total", total);
             request.setAttribute("userLogged", userLogged);
-            this.getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
+            this.getServletContext().getRequestDispatcher("/pages/panier.jsp").forward(request, response);
         }
 
     }
@@ -48,5 +62,4 @@ public class IndexServlet extends HttpServlet {
             throws ServletException, IOException {
 
     }
-
 }

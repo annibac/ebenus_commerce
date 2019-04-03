@@ -1,13 +1,22 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: celine_nnbl
+  Date: 03/04/2019
+  Time: 16:11
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file="./pages/base.jsp" %>
+<%@ include file="./base.jsp" %>
+
+
 <body>
-<div class="site-container">
+<div class="outer">
     <div class="header-outer" id="header-outer">
         <!-- Header -->
         <header id="header"  class="header">
             <div class="header">
-                <a href="index.jsp" title="Ebenus Commerce" class="logo">
+                <a href="index.html" title="Ebenus Commerce" class="logo">
                     <img src="./assets/images/logo/logo.png" alt="Ebenus Commerce">
                 </a>
                 <ul class="main-menu">
@@ -59,46 +68,63 @@
     <!-- Section -->
     <section>
         <div class="content">
-            <div id="slider" class="owl-carousel owl-theme">
-                <div class="item">
-                    <a href="#"><img src="./assets/images/slider/ebenus-matelas_2.jpg"/></a>
-                </div>
 
-                <div class="item">
-                    <a href="#"><img src="./assets/images/slider/ebenus-matelas_1.jpg"/></a>
-                </div>
 
-            </div>
-            <div class="products-container">
-                <h1>Les produits les plus achetés</h1>
-                <div class="row no-gutters products-box">
-
-                    <div class="products col-md-12">
-
-                        <ul class="row no-gutters justify-content-between">
-                            <c:forEach items="${produits}" begin="0" end="9" var="prd">
-                            <li class="col-sm-6 col-md-3 col-lg-2">
-                                <div class="image-wrapper">
-                                    <img src="https://media.ldlc.com/ld/products/00/03/82/84/LD0003828453_2_0003828545_0003828620.jpg" alt="">
-                                </div>
-                                <div class="product-info">
-                                    <h2 class="product-name">
-                                        <a href="${pageContext.request.contextPath}/product?id=${prd.getIdProduit()}" class="add-to-cart-btn">
-                                                ${prd.getNom()}
-                                        </a>
-                                    </h2>
-                                    <div class="price-box">
-                                        <span class="regular-price">${prd.getPrix()}€</span>
-                                    </div>
-                                </div>
+            <div class="product-view " >
+                <div class="row no-gutters">
+                    <div class="product-img-box col-md-7 ">
+                        <ul>
+                            <li>
+                                <img class="detail-img" src="https://media.ldlc.com/ld/products/00/03/82/84/LD0003828453_2_0003828545_0003828620.jpg" alt="" />
                             </li>
-                            </c:forEach>
 
                         </ul>
+
+                    </div>
+
+                    <div class="product-shop col-md-5">
+                        <div class="product-name">
+                            <h1>${prd.getNom()}</h1>
+                        </div>
+                        <div class="short-description">
+                            <div class="std">
+                                <ul>
+                                    <li>Référence : ${prd.getReference()}</li>
+                                    <li>Description : ${prd.getDescription()}</li>
+                                    <li>Prix : ${prd.getPrix()}€</li>
+                                    <li>Stock : ${prd.getStock()}</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div>
+                                <div class="price-box">
+                <span class="regular-price" id="product-price-101">
+                    <span class="price">${prd.getPrix()}€</span>
+                </span>
+                                </div>
+                                <p class="reference-product">Ref : <strong>${prd.getReference()}</strong></p>
+                                <div class="availability hors-stock">Availability: <span>${prd.getStock()}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="add-to-box">
+                            <div class="add-to-cart">
+                                <form action="${pageContext.request.contextPath}/product?id=${prd.getIdProduit()}" method="post" >
+                                <input type="hidden" name="name" id="name" value="${prd.getReference()}">
+                                <button type="submit" title="Add to Cart" class="button btn-cart">
+                                    <i class="icon-cart"></i>Ajouter au panier
+                                </button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
-<%@ include file="./pages/footer.jsp" %>
 
+
+<%@ include file="./footer.jsp" %>

@@ -10,7 +10,7 @@ public interface IServiceFacade {
 
     public IAdresseDao getAdresseDao();
 
-    public IArticleCommandeDao getArticleCommande();
+    public IArticleCommandeDao getArticleCommandeDao();
 
     public ICommandeDao getCommandeDao();
 

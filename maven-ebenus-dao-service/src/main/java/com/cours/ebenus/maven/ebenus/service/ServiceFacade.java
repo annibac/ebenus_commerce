@@ -62,7 +62,7 @@ public class ServiceFacade implements IServiceFacade {
     public IAdresseDao getAdresseDao() { return addrDao; }
 
     @Override
-    public IArticleCommandeDao getArticleCommande() { return artCommandeDao; }
+    public IArticleCommandeDao getArticleCommandeDao() { return artCommandeDao; }
 
     @Override
     public ICommandeDao getCommandeDao() { return commandeDao; }
