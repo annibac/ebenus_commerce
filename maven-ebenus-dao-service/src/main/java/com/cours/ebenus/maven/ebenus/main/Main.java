@@ -122,7 +122,8 @@ public class Main {
 //        System.out.println(artCoDao.findArticleCommandeByUser(userdao.findUtilisateurById(12)));
 //        System.out.println(artCoDao.findArticleCommandeById(1647));
 
-        ArticleCommande art = new ArticleCommande(1, 12,22,15, 600.0, "REF-IPHONE", 1, "V");
+        ArticleCommande art = new ArticleCommande(1, 12,22,15, 600.0, "REF-IPHONE-12", 1, "V");
         System.out.println(artCoDao.createArticleCommande(art));
+        System.out.println(artCoDao.deleteArticleCommande(art));
     }
 }

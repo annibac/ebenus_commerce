@@ -45,6 +45,15 @@
         <url-pattern>/panier</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>DeleteArtCoServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.front.office.web.servlets.DeleteArtCoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteArtCoServlet</servlet-name>
+        <url-pattern>/delArtCo</url-pattern>
+    </servlet-mapping>
+
     <session-config>
         <session-timeout>
             30

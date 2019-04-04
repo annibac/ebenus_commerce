@@ -172,11 +172,35 @@ public class ArticleCommandeDao extends AbstractDao<ArticleCommande> implements 
     }
 
     public ArticleCommande updateArticleCommande(ArticleCommande articlecommande){
-        return null;
+        try {
+            String sql = "UPDATE articleCommande SET idCommande = ? , idUtilisateur = ? ,  idAdresse = ? ,  idProduit = ? ,  totalArticleCommande = ? ,  reference = ? ,  quantite = ? ,  statut = ? ,  version  = ? , dateModification = ? WHERE idArticleCommande = ? ";
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt = setAttributes(stmt, articlecommande);
+            if(stmt != null) {
+                stmt.setDate(10, new java.sql.Date(articlecommande.getDateModification().getTime()));
+                stmt.setInt(11, articlecommande.getIdArticleCommande());
+                stmt.executeUpdate();
+                return articlecommande;
+            }
+            return null;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+            return null;
+        }
     }
 
     public boolean deleteArticleCommande(ArticleCommande articlecommande){
-        return false;
+        try {
+            String sql = "DELETE FROM articleCommande where idArticleCommande = ? ";
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt.setInt(1, articlecommande.getIdArticleCommande());
+            stmt.executeUpdate();
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
 }

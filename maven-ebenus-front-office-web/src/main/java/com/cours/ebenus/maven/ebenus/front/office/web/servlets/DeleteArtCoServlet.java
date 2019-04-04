@@ -15,13 +15,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
-public class PanierServlet extends HttpServlet {
+public class DeleteArtCoServlet extends HttpServlet {
     private ServiceFacade servicefacade = null;
 
-    private static final Log log = LogFactory.getLog(LoginServlet.class);
+    private static final Log log = LogFactory.getLog(DeleteArtCoServlet.class);
 
     @Override
     public void init() throws ServletException {
@@ -36,28 +35,26 @@ public class PanierServlet extends HttpServlet {
         if (userLogged == null)  {
             response.sendRedirect(this.getServletContext().getContextPath() + "/login");
         } else {
+            System.out.println("IN DELETE");
             HttpSession session = request.getSession();
-            List<ArticleCommande> artCo = ServiceFacade.getInstance().getArticleCommandeDao().findArticleCommandeByUser(userLogged);
-            List<ArticleCommande> temp_art = new ArrayList<ArticleCommande>();
-            for(ArticleCommande ac: artCo){
-                if(ac.getStatut().equals("T"))
-                    temp_art.add(ac);
+            Produit prd = ServiceFacade.getInstance().getProduitDao().findProduitById(Integer.parseInt(request.getParameter("id")));
+            List<ArticleCommande> list_artCo = ServiceFacade.getInstance().getArticleCommandeDao().findArticleCommandeByUser(userLogged);
+            for (ArticleCommande art: list_artCo){
+                if(art.getIdProduit() == prd.getIdProduit() && art.getStatut().equals("T")) {
+                    ServiceFacade.getInstance().getArticleCommandeDao().deleteArticleCommande(art);
+                    prd.setStock(prd.getStock()+1);
+                    ServiceFacade.getInstance().getProduitDao().updateProduit(prd);
+                    List<Commande> co = ServiceFacade.getInstance().getCommandeDao().findCommandeByUser(userLogged);
+                    for(Commande c: co){
+                        if (c.getStatut().equals("T")) {
+                            c.setTotalCommande(c.getTotalCommande() - prd.getPrix());
+                            ServiceFacade.getInstance().getCommandeDao().updateCommande(c);
+                        }
+                    }
+                }
             }
-            List<Produit> produits = new ArrayList<Produit>();
-            Double total = 0.0;
-            for(ArticleCommande ac: temp_art){
-                Produit prd = ServiceFacade.getInstance().getProduitDao().findProduitById(ac.getIdProduit());
-                produits.add(prd);
-            }
-            List<Commande> co = ServiceFacade.getInstance().getCommandeDao().findCommandeByUser(userLogged);
-            for (Commande c : co){
-              if(c.getStatut().equals("T"))
-                  total = c.getTotalCommande();
-            }
-            request.setAttribute("produits", produits);
-            request.setAttribute("total", total);
             request.setAttribute("userLogged", userLogged);
-            this.getServletContext().getRequestDispatcher("/pages/panier.jsp").forward(request, response);
+            response.sendRedirect(this.getServletContext().getContextPath() + "/panier");
         }
 
     }
@@ -65,6 +62,5 @@ public class PanierServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-
     }
 }

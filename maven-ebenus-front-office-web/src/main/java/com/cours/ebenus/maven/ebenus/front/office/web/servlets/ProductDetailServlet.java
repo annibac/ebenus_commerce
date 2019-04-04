@@ -57,6 +57,7 @@ public class ProductDetailServlet extends HttpServlet {
             Produit produit = ServiceFacade.getInstance().getProduitDao().findProduitById(Integer.parseInt(request.getParameter("id")));
             if(produit != null){
                 produit.setStock(produit.getStock()-1);
+                ServiceFacade.getInstance().getProduitDao().updateProduit(produit);
                 List<Commande> commandes = ServiceFacade.getInstance().getCommandeDao().findCommandeByUser(userLogged);
                 Adresse addr = ServiceFacade.getInstance().getAdresseDao().findUserMainAdresse(userLogged);
                 Commande cmd = null;
