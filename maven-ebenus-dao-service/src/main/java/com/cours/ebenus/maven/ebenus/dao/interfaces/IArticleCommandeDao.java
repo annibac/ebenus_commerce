@@ -11,6 +11,8 @@ public interface IArticleCommandeDao {
 
     public ArticleCommande findArticleCommandeById(int idCommande);
 
+    public List<ArticleCommande> findArticleCommandeByIdCommande(int idCommande);
+
     public List<ArticleCommande> findArticleCommandeByUser(Utilisateur user);
 
     public List<ArticleCommande> findArticleCommandeByReference(String reference);

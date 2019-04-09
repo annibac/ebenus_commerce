@@ -51,7 +51,7 @@ public class LoginServlet extends HttpServlet {
         if (userLogged != null) {
             Cookie userCookie = new Cookie("user", email + "@@" + password);
             response.addCookie(userCookie);
-            response.sendRedirect(this.getServletContext().getContextPath() + "/");
+            response.sendRedirect(this.getServletContext().getContextPath() + "/index");
         } else {
             response.sendRedirect(this.getServletContext().getContextPath() + "/login?error=L'utilisateur n'existe pas.");
         }

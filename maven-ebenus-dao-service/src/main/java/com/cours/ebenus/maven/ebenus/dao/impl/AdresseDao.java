@@ -4,6 +4,7 @@ import com.cours.ebenus.maven.ebenus.dao.entities.Adresse;
 import com.cours.ebenus.maven.ebenus.dao.entities.Utilisateur;
 import com.cours.ebenus.maven.ebenus.dao.helper.DriverManagerSingleton;
 import com.cours.ebenus.maven.ebenus.dao.interfaces.IAdresseDao;
+import com.cours.ebenus.maven.ebenus.service.ServiceFacade;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

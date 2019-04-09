@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <!--CharsetFilter start-->
+
+    <filter>
+        <filter-name>CharsetFilter</filter-name>
+        <filter-class>com.cours.ebenus.maven.ebenus.front.office.web.helpers.CharsetFilter</filter-class>
+        <init-param>
+            <param-name>requestEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CharsetFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.cours.ebenus.maven.ebenus.front.office.web.servlets.LoginServlet</servlet-class>
@@ -53,6 +77,7 @@
         <servlet-name>DeleteArtCoServlet</servlet-name>
         <url-pattern>/delArtCo</url-pattern>
     </servlet-mapping>
+
 
     <session-config>
         <session-timeout>

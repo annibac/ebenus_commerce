@@ -8,35 +8,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9936869e-c6da-4814-a4b9-16ac48c31289" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/helpers/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllCommandesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllProductsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllRolesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllUsersServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteAddrServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteCommandeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteRoleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DetailCommandeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditRoleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allCommandes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allProducts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allRoles.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allUsers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/base.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/detailCo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/editPrd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/editRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/edit_user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/helpers/CharsetFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maven_ebenus_back_office_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/maven_ebenus_back_office_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/maven_ebenus_back_office_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/maven_ebenus_back_office_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-16.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-17.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-18.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-19.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-23.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-24.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-25.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-26.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-27.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-28.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-29.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-30.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-31.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-33.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/maven-ebenus-back-office.iml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-back-office/maven-ebenus-back-office.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-back-office/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/css/master.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/css/master.css.-map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/logo - Copie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/194803.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/199301.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/284764.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/284771.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/30909.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/350376.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/360365.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/360591.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/371176.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/375167.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/375168.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/375301.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/375311.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/386236.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/387487.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/388557.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/391814.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/394824.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/396289.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/398168.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/404588.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/408435.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/412502.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/412572.350.350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-1_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-1_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-1_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-1_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-2_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-2_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/refrigerateur-2_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/images/products/spacemouse-wireless-souris-laser-sans-fil-per.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/js/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/assets/js/bower.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-back-office/target/maven-ebenus-back-office-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IArticleCommandeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IArticleCommandeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-dao-service/target/classes/com/cours/ebenus/maven/ebenus/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/base.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/base.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/creer-compte-client.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/creer-compte-client.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/detail_produit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/detail_produit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/panier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/panier.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/classes/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/lib/maven-ebenus-dao-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/lib/maven-ebenus-dao-service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/base.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/base.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/creer-compte-client.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/creer-compte-client.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/detail_produit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/detail_produit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/panier.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/panier.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven-ebenus-front-office-web/target/maven-ebenus-front-office-web-1.0-SNAPSHOT/pages/products.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/maven-ebenus-back-office/target/" />
     <ignored path="$PROJECT_DIR$/maven-ebenus-dao-service/target/" />
@@ -52,68 +164,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="155" column="14" lean-forward="true" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteRoleServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Commande.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="74" column="31" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DetailCommandeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/panier.jsp">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/detailCo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="126" column="49" lean-forward="true" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="39" column="81" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllCommandesServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allCommandes.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-              <folding>
-                <element signature="n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-              </folding>
+              <caret line="76" column="69" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/products.jsp">
+        <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/UtilisateurDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="65" lean-forward="true" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="124" column="84" selection-start-line="124" selection-start-column="84" selection-end-line="124" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="140" column="39" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
+            <state relative-caret-position="25">
+              <caret line="80" column="42" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +265,9 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Tag Library Descriptor" />
-        <option value="Jsp File" />
+        <option value="jsf" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -155,57 +292,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/pom.xml" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/utils/Constants.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/helper/DriverManagerSingleton.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/exception/EbenusException.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Produit.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Utilisateur.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/UtilisateurDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IProduitDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IUtilisateurDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IAdresseDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Role.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ProduitDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Adresse.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/ICommandeDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Commande.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/CommandeDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/ArticleCommande.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-back-office/pom.xml" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/factory/AbstractDaoFactory.java" />
-        <option value="$PROJECT_DIR$/../_etape4/maven-quest-ebenus-dao-jdbc/src/main/java/com/cours/ebenus/factory/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/factory/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IArticleCommandeDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/maven-ebenus-front-office-web.iml" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/pom.xml" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/IndexServlet.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/base.html.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductsServlet.java" />
-        <option value="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/frontOffice/detail-produit-1.html" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/footer.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/service/ServiceFacade.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/service/IServiceFacade.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/detail_produit.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/creer-compte-client.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/products.jsp" />
         <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.java" />
-        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/base.jsp" />
-        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java" />
         <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.java" />
         <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.java" />
         <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/panier.jsp" />
         <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/dashboard.html" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/dashbord.xhtml" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/dashboard.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllUsersServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allUsers.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/edit_user.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteUserServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteAddrServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllRolesServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteRoleServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allRoles.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/editRole.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditRoleServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/edit_user.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditUserServlet.java" />
+        <option value="D:/Program Files/Apache Software Foundation/Tomcat 9.0/conf/server.xml" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/helpers/CharsetFilter.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/base.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/creer-compte-client.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/detail_produit.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/base.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllProductsServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/helpers/CharsetFilter.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/editPrd.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditProductServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteProductServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allProducts.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteCommandeServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllCommandesServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allCommandes.jsp" />
+        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IArticleCommandeDao.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DetailCommandeServlet.java" />
+        <option value="$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/detailCo.jsp" />
       </list>
     </option>
   </component>
@@ -232,7 +369,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="width" value="1935" />
     <option name="height" value="1040" />
@@ -243,6 +380,454 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="helpers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servlets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="interfaces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="helpers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servlets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,357 +875,33 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-back-office" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="entities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="impl" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-dao-service" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="service" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cours" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="maven" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ebenus" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="office" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="servlets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="site_commerce" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="maven-ebenus-front-office-web" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554373328099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554819628788" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/maven-ebenus-back-office" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-back-office\src\main\java\com\cours\ebenus\maven\ebenus\back\office" />
+      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-front-office-web\src\main\webapp\pages" />
+      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-back-office\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cours.ebenus.maven.ebenus.back.office.helpers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-back-office\src\main\webapp\pages" />
       <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-back-office\src\main\webapp" />
       <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-front-office-web\src\main\webapp" />
-      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-back-office\src\main\webapp\pages" />
       <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-front-office-web\src\main\webapp\pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-front-office-web\src\main\webapp\pages" />
-      <recent name="D:\Projects\SCHOOL\ebenus\site_commerce\maven-ebenus-back-office\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -670,7 +931,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.17" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/maven-ebenus-front-office-web/login" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/maven-ebenus-back-office/users" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="maven-ebenus-back-office:war exploded">
@@ -771,18 +1032,20 @@
       <workItem from="1554116654916" duration="6799000" />
       <workItem from="1554123520459" duration="5996000" />
       <workItem from="1554229897906" duration="17076000" />
-      <workItem from="1554363470772" duration="8741000" />
+      <workItem from="1554363470772" duration="12346000" />
+      <workItem from="1554731475357" duration="10483000" />
+      <workItem from="1554809048957" duration="10166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92270000" />
+    <option name="totallyTimeSpent" value="116524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20939597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -793,7 +1056,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.7315436" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.7315436" visible="true" weight="0.24504249" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3427762" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -823,276 +1086,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/AdresseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="171" column="43" selection-start-line="171" selection-start-column="43" selection-end-line="171" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IProduitDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/maven_ebenus_back_office_war.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/loginQuest.html" />
-    <entry file="file://$PROJECT_DIR$/../_etape4/maven-quest-ebenus-dao-jdbc/src/main/java/com/cours/ebenus/service/IServiceFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_etape4/maven-quest-ebenus-dao-jdbc/src/main/java/com/cours/ebenus/service/ServiceFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_etape4/maven-quest-ebenus-dao-jdbc/src/main/java/com/cours/ebenus/factory/AbstractDaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../_etape4/maven-quest-ebenus-dao-jdbc/src/main/java/com/cours/ebenus/factory/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/factory/AbstractDaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/factory/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/frontOffice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="431" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/nb-configuration.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/maven-ebenus-back-office.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/ICommandeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IArticleCommandeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ProduitDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="141" column="9" lean-forward="true" selection-start-line="141" selection-start-column="9" selection-end-line="141" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/nb-configuration.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/CommandeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="136" column="13" lean-forward="true" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/UtilisateurDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="293" column="47" lean-forward="true" selection-start-line="293" selection-start-column="47" selection-end-line="293" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="102" column="31" selection-start-line="102" selection-start-column="31" selection-end-line="102" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/maven-ebenus-front-office-web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/assets/css/master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/IndexServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/frontOffice/detail-produit-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/service/IServiceFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/service/ServiceFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/ArticleCommande.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="110" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        <state relative-caret-position="367">
+          <caret line="55" column="84" lean-forward="true" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1101,97 +1099,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Commande.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="105" selection-start-line="30" selection-start-column="105" selection-end-line="30" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/detail_produit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/creer-compte-client.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/frontOffice/panier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="111" column="33" lean-forward="true" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#button#0;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="175" column="235" selection-start-line="175" selection-start-column="235" selection-end-line="175" selection-end-column="235" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2162#2179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/roles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="282" column="7" selection-start-line="176" selection-start-column="4" selection-end-line="282" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteAddrServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllUsersServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="41" column="41" selection-start-line="41" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="43" column="64" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="246" lean-forward="true" selection-start-line="175" selection-start-column="4" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/service/IServiceFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/RoleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="140" column="39" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="39" />
+        <state relative-caret-position="201">
+          <caret line="87" column="64" lean-forward="true" selection-start-line="87" selection-start-column="64" selection-end-line="87" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/main/Main.java">
+    <entry file="file://D:/Program Files/Apache Software Foundation/Tomcat 9.0/conf/server.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="124" column="84" selection-start-line="124" selection-start-column="84" selection-end-line="124" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/PanierServlet.java">
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/helpers/CharsetFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1200,52 +1201,293 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/base.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="58" column="97" selection-start-line="58" selection-start-column="97" selection-end-line="58" selection-end-column="97" />
+        <state relative-caret-position="119">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/creer-compte-client.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/detail_produit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="103" selection-start-line="33" selection-start-column="103" selection-end-line="33" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="43" lean-forward="true" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/edit_user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="90" column="64" selection-start-line="90" selection-start-column="64" selection-end-line="90" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/produits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allRoles.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="68" column="45" lean-forward="true" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/editer-produit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="271" column="38" lean-forward="true" selection-start-line="271" selection-start-column="38" selection-end-line="271" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllRolesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditRoleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/helpers/CharsetFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/editRole.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/EditProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="39" column="86" selection-start-line="39" selection-start-column="86" selection-end-line="39" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/editPrd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="80" column="92" lean-forward="true" selection-start-line="80" selection-start-column="92" selection-end-line="80" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllProductsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="49" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/commandes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="293" column="10" lean-forward="true" selection-start-line="293" selection-start-column="10" selection-end-line="293" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/CommandeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/base.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2482">
+          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="155" column="14" lean-forward="true" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteRoleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/entities/Commande.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/UtilisateurDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/AllCommandesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allCommandes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="76" column="69" selection-start-line="76" selection-start-column="69" selection-end-line="76" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DeleteCommandeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/interfaces/IArticleCommandeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-dao-service/src/main/java/com/cours/ebenus/maven/ebenus/dao/impl/ArticleCommandeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="96" column="31" lean-forward="true" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2162#2179#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/ProductDetailServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="59" column="83" selection-start-line="59" selection-start-column="83" selection-end-line="59" selection-end-column="83" />
+        <state relative-caret-position="255">
+          <caret line="39" column="81" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allProducts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MAQUETTE-HTML-EBENUS/ebenus/backOffice/detail-commande.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="319" column="25" lean-forward="true" selection-start-line="319" selection-start-column="25" selection-end-line="319" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/allUsers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/java/com/cours/ebenus/maven/ebenus/back/office/servlets/DetailCommandeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/products.jsp">
+    <entry file="file://$PROJECT_DIR$/maven-ebenus-back-office/src/main/webapp/pages/detailCo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/servlets/DeleteArtCoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="65" lean-forward="true" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-ebenus-front-office-web/src/main/webapp/pages/panier.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="-8">
+          <caret line="126" column="49" lean-forward="true" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
         </state>
       </provider>
     </entry>

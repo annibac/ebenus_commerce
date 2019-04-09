@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <!--CharsetFilter start-->
+
+    <filter>
+        <filter-name>CharsetFilter</filter-name>
+        <filter-class>com.cours.ebenus.maven.ebenus.back.office.helpers.CharsetFilter</filter-class>
+        <init-param>
+            <param-name>requestEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>CharsetFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+        </jsp-property-group>
+    </jsp-config>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.IndexServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllUsersServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.AllUsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllUsersServlet</servlet-name>
+        <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.DeleteUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteUserServlet</servlet-name>
+        <url-pattern>/delUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditUserServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.EditUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditUserServlet</servlet-name>
+        <url-pattern>/editUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteAddrServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.DeleteAddrServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteAddrServlet</servlet-name>
+        <url-pattern>/delAddr</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllRolesServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.AllRolesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllRolesServlet</servlet-name>
+        <url-pattern>/roles</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteRoleServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.DeleteRoleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteRoleServlet</servlet-name>
+        <url-pattern>/delRole</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditRoleServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.EditRoleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditRoleServlet</servlet-name>
+        <url-pattern>/editRole</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllProductsServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.AllProductsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllProductsServlet</servlet-name>
+        <url-pattern>/products</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteProductServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.DeleteProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteProductServlet</servlet-name>
+        <url-pattern>/delProduit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditProductServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.EditProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProductServlet</servlet-name>
+        <url-pattern>/editProduit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllCommandesServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.AllCommandesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AllCommandesServlet</servlet-name>
+        <url-pattern>/commandes</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCommandeServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.DeleteCommandeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCommandeServlet</servlet-name>
+        <url-pattern>/delCommande</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DetailCommandeServlet</servlet-name>
+        <servlet-class>com.cours.ebenus.maven.ebenus.back.office.servlets.DetailCommandeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DetailCommandeServlet</servlet-name>
+        <url-pattern>/detailCommande</url-pattern>
+    </servlet-mapping>
+
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>LoginServlet</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -19,7 +19,7 @@ public interface IRoleDao {
 
     public Role findRoleById(int idRole);
 
-    public List<Role> findRoleByIdentifiant(String identifiantRole);
+    public Role findRoleByIdentifiant(String identifiantRole);
 
     public Role createRole(Role role);
 

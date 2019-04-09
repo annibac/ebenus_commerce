@@ -81,7 +81,7 @@ public class RoleDao extends AbstractDao<Role> implements IRoleDao {
     }
 
     @Override
-    public List<Role> findRoleByIdentifiant(String identifiantRole) {
+    public Role findRoleByIdentifiant(String identifiantRole) {
         try {
             List<Role> roles = new ArrayList<Role>();
             String sql = "SELECT * FROM role WHERE identifiant = ?";
@@ -90,10 +90,10 @@ public class RoleDao extends AbstractDao<Role> implements IRoleDao {
             ResultSet rs = stmt.executeQuery();
             while(rs.next()){
                 Role role = createRoleFromDb(rs);
-                roles.add(role);
+                closeSqlResources(stmt, rs);
+                return role;
             }
-            closeSqlResources(stmt, rs);
-            return roles;
+            return null;
         }
         catch (SQLException e){
             e.printStackTrace();

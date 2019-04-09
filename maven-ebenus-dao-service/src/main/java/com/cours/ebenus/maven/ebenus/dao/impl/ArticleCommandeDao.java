@@ -86,6 +86,26 @@ public class ArticleCommandeDao extends AbstractDao<ArticleCommande> implements 
         }
     }
 
+    public List<ArticleCommande> findArticleCommandeByIdCommande(int idCommande){
+        try {
+            List<ArticleCommande> commandes = new ArrayList<ArticleCommande>();
+            String sql = "SELECT * FROM articleCommande WHERE idCommande = ?";
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt.setInt(1, idCommande);
+            ResultSet rs = stmt.executeQuery();
+            while(rs.next()){
+                ArticleCommande cmd = createArtFromDb(rs);
+                commandes.add(cmd);
+            }
+            closeSqlResources(stmt, rs);
+            return commandes;
+        }
+        catch (SQLException e){
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     public List<ArticleCommande> findArticleCommandeByUser(Utilisateur user){
         try {
             List<ArticleCommande> commandes = new ArrayList<ArticleCommande>();
